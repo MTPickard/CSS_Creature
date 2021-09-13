@@ -1,0 +1,185 @@
+
+.wrapper {
+    height: 500px;
+    width: 800px;
+    margin: 15px;
+    background-image: url(https://images.unsplash.com/photo-1523861751938-121b5323b48b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1043&q=80);
+}
+
+.hornOne {
+    position: relative;
+    top: 5px;
+    left: 325px;
+    height: 0px;
+    width: 0px;
+    z-index: 1;
+    border-top: 5px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 50px solid rgb(81, 31, 19);
+}
+
+.hornTwo {
+    position: relative;
+    top: -50px;
+    left: 440px;
+    height: 0px;
+    width: 0px;
+    z-index: 1;
+    border-top: 5px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 50px solid rgb(81, 31, 19);
+}
+
+.head {
+    margin: -50px 0px 0px 245px;
+    height: 350px;
+    width: 300px;
+    position: relative;
+    border: solid 1px black;
+    border-radius: 75px 75px 150px 150px;
+    background-color: rgb(160, 50, 23);
+}
+
+.left-eye {
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 0 33px 0px 33px;
+    z-index: 1;
+    position: relative;
+    left: 50px;
+    top: 95px;
+    background-color: black;
+    
+}
+
+.right-eye {
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 33px 0px 33px 0px;
+    z-index: 2;
+    position: relative;
+    left: 195px;
+    top: 47px;
+    background-color: black;
+}
+
+.pupilOne {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 45px 0px 45px 0px;
+    background-color: white;
+    z-index: 1;
+
+}
+
+.pupilTwo {
+    position: relative;
+    top: 9px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 0px 45px 0px 45px;
+    background-color: white;
+    z-index: 1;
+}
+
+.dot {
+    position: relative;
+    top: 8px;
+    left: 8px;
+    width: 5px;
+    height: 5px;
+    border: 3px solid red;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.mouth {
+    position: relative;
+    top: 125px;
+    left: 65px;
+    width: 0px;
+    height: 00px;
+    border: solid 1px black;
+    background-color: rgb(160,50,23);
+    z-index: 1;
+    border-top: 30px solid black;
+    border-left: 85px solid transparent;
+    border-bottom: 0px solid blue;
+    border-right: 85px solid transparent;
+}
+
+.toothOne {
+    position: relative;
+    top: -30px;
+    left: -55px;
+    width: 0px;
+    height: 0px;
+    border: solid 1px white;
+    background-color: black;
+    z-index: 1;
+    border-top: 10px solid white;
+    border-left: 8px solid transparent;
+    border-bottom: 0px solid yellow; 
+    border-right: 8px solid transparent;
+}
+
+.toothTwo {
+    position: relative;
+    top: -39px;
+    left: 40px;
+    width: 0px;
+    height: 0px;
+    border: solid 1px white;
+    background-color: black;
+    z-index: 1;
+    border-top: 10px solid white;
+    border-left: 8px solid transparent;
+    border-bottom: 0px solid yellow; 
+    border-right: 8px solid transparent;
+}
+
+.earOne {
+    position: relative;
+    top: 0;
+    left: -28px;
+    width: 25px;
+    height: 35px;
+    border: 2px solid black;
+    background:rgb(81, 31, 19);
+    z-index: 1;
+    border-radius: 45px 0px 0px 45px;
+}
+
+.earTwo{
+    position: relative;
+    top: -40px;
+    left: 300px;
+    width: 25px;
+    height: 35px;
+    border: 2px solid black;
+    background:rgb(81, 31, 19);
+    z-index: 1;
+    border-radius: 0px 45px 45px 0px;
+}
+
+.shoulders {
+    position: relative;
+    top: -2px;
+    left: 195px;
+    width: 400px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: rgb(160, 50, 23);
+    border-radius: 45px 45px 0px 0px;
+    z-index: 1;
+}
